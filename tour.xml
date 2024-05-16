@@ -34,7 +34,7 @@
         ondenied=""
         />
 		<action name="add_video_sources">
-			videointerface_addsource('1980x960', '%CURRENTXML%/code/Prueba_Video.mp4');
+			videointerface_addsource('1980x960', '%CURRENTXML%/code/prueba_video.mp4');
 			 
 			if(device.ios,
 				<!-- iOS Safari has a very slow 'video-to-webgl-texture' transfer, therefore use a low-res video by default -->
@@ -50,7 +50,7 @@
 		
 		<!-- include the videoplayer plugin -->
 		<plugin name="video"
-		        url.html5="%SWFPATH%/plugins/videoplayer.js"
+		        url.html5="%CURRENTXML%/plugins/videoplayer.js"
 		        url.flash="%SWFPATH%/plugins/videoplayer.swf"
 		        pausedonstart="true"
 		        loop="false"
