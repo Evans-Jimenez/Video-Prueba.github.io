@@ -2,7 +2,7 @@
 	
 	<include url="loadinganimation.xml" />
 	<include url="loadingpercenttext.xml" />
-	<plugin nam="toolbox" url="toolbox/toolboxV2.js" keep="true" preload="true" />
+	<!-- <plugin nam="toolbox" url="toolbox/toolboxV2.js" keep="true" preload="true" /> -->
 	
 	
 	<include url="skin/videointerface.xml" /> 
